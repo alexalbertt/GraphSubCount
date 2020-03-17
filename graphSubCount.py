@@ -101,6 +101,8 @@ def animate(i, x, y):
 
 def main():
     # get data
+    # needs date after which to get data (epoch), sub count goal (when it stops collecting data),
+    # and the subreddit name
     totSubCounts = getPushshiftData(1577836800, 1000000, "coronavirus")
 
     # configuring animation
